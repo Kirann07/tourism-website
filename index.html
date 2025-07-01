@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--swiper link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+   
+<body>
+
+    <!--header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Traventure</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-search" id="search-btn"></i>
+            <i class="fa-solid fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!--header section ends -->
+
+    <!--login form container-->
+
+    <div class="login-form-container">
+
+        <i class="fa-solid fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+
+        </form>
+    </div>
+    
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>welcome to chhattisgarh</h3>
+            <p>Where Culture Breathes and Nature Speaks</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-7.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-8.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-9.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!--home section ends-->
+    <!--book section starts-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/travel.jpg" alt="book image">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+    
+                <div class="inputBox">
+                    <h3>guests</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+    
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+    
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!--book section ends-->
+    <!--packages section starts -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="Chitrakote Waterfall">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Chitrakote Waterfall</h3>
+                    <p>It is the widest waterfall in India, reaching a width of nearly 300 metres (980 ft) during the peak monsoon season.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Ghatarani Waterfalls</h3>
+                    <p>If you are looking for the mixture of nature, adventure and tranquility, then Ghatarani Waterfall will be the best area to visit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-33.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Tirathgarh Falls</h3>
+                    <p>This 300 feet fall is an enticing and magnificent one and is also a 'must see' tourist picnic spot.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-444.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Barnawapara Wildlife Sanctuary</h3>
+                    <p>Explore the wild heart of Chhattisgarh at Barnawapara Wildlife Sanctuary, home to leopards, sloth bears, and over 150 bird species.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-666.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Keshkal Ghati</h3>
+                    <p>Drive through 12 breathtaking hairpin bends with panoramic views of lush green valleys.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-777.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Bhoramdeo Temple</h3>
+                    <p>Explore the “Khajuraho of Chhattisgarh” with its stunning stone carvings and history.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-88.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Jatmai Temple</h3>
+                    <p>Discover serenity and natural beauty at this peaceful shrine nestled in the forest.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-99.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Barah Kaman</h3>
+                    <p>Marvel at ancient archways whispering tales of medieval architecture in Kanker.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-100.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Maa Bambleshwari Temple</h3>
+                    <p>Seek divine blessings atop a scenic hill at this sacred Shaktipeeth in Dongargarh.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-110.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Shivgiri Temple</h3>
+                    <p>Visit the towering Shiva statue offering panoramic views and spiritual calm.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-120.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Gangrel Dam</h3>
+                    <p>Enjoy boating and sunset views at Chhattisgarh's largest dam and reservoir.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-130.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kanan Pendari Zoo Park</h3>
+                    <p> A fun-filled day awaits with exotic animals and lush greenery.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-144.jpg" alt="">
+                <div class="content"> 
+                    <h3><i class="fas fa-map-marker-alt"></i> The Archaeological Museum</h3>
+                    <p>Dive into Chhattisgarh's rich past with rare artifacts and relics.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-150.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Siyadevi Temple</h3>
+                    <p> Feel divine peace in this temple surrounded by waterfalls and dense forests.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-160.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Deorani-Jethani Temple</h3>
+                    <p>Witness ancient tribal art and the mysterious Rudra idol in stone.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-170.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Chitradhara Falls</h3>
+                    <p>Escape to nature's melody at this hidden gem with cascading waters.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-200.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Vishnu Temple</h3>
+                    <p>Marvel at the intricate stone carvings of this unfinished 11th-century temple dedicated to Lord Vishnu.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-199.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Tibetan Monastery</h3>
+                    <p>Experience peace and vibrant Tibetan culture in the “Mini Tibet” of Chhattisgarh.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₹4000 <span>₹6000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--packages section ends -->
+    <!--services section starts -->
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Stay smart with comfort and savings at every stop.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Taste the flavors of every place, from street bites to fine dining.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Travel worry-free with tips to stay safe and prepared.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Explore Chhattisgarh</h3>
+                <p>Discover the state's hidden gems, culture, and nature.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Save time and explore more with our speedy travel tips.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Fuel your wanderlust with thrilling outdoor escapes and daring journeys.</p>
+            </div>
+        </div>
+    </section>
+    <!--services section ends -->
+
+    <!--gallery section starts here-->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-0.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-10.jpg" alt="">
+                <div class="content">
+                    <h3>raipur</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>bhilai</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>village areas</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>waterfalls</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>temples</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-11.jpg" alt="">
+                <div class="content">
+                    <h3>bastar</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>historical places</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>spiritual places</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <!--gallery section ends here-->
+
+    <!--contact section starts here-->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+       
+        <div class="row">
+
+            <div class="image">
+                <img src="images/c-11.jpg">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea> 
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+
+    </section>
+    
+    <!--contact section ends here-->
+    <!--brand section-->
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/b-1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-211.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-41.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-333.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/b-7.jpg" alt=""></div>
+            </div>
+        </div>
+  
+    </section>
+    <!--footer section starts-->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>We promote the beauty and culture of Chhattisgarh, guiding travelers to its stunning waterfalls, ancient temples, and hidden gems for a memorable experience.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">bhilai</a>
+                <a href="#">durg</a>
+                <a href="#">raipur</a>
+                <a href="#">korba</a>                
+                <a href="#">bilaspur</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>                
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedIn</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> kiran parganiha </span> | all rigths reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".brand-slider", {
+          spaceBetween: 20,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            450: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            991: {
+              slidesPerView: 4,
+            },
+            1200: {
+              slidesPerView: 5,
+            }
+          }
+        });
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--custom js file link-->
+<script src="script.js"></script>    
+</body>
+
+</html>
