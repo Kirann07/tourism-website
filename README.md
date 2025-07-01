@@ -36,10 +36,4 @@ chhattisgarh-tourism/
 
 Images are sourced from public domain or tourism websites for educational purposes.
 
-## 👩‍💻 Developed By
-
-**Kiran Parganiha**  
-Computer Science Student  
-Shri Shankaracharya Technical Campus
-
 
